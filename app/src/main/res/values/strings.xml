@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Third_def</string>
+    <string name="login">Login</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="notes">Notes</string>
+    <string name="backButton">BackButton</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="Login_click">Login</string>
+    <string name="hint_email">Enter Email</string>
+    <string name="hint_password">Enter Password</string>
+    <string name="lbl_create_an_account">Create an account !</string>
+
+    <string name="lbl_register">Register</string>
+    <string name="hint_EnterName">Enter Name</string>
+    <string name="hint_confirm_password">Enter Confirm Password</string>
+    <string name="hint_back_to_login">Back to login</string>
+
+    <string name="lbl_gender">Gender</string>
+    <string name="lbl_rdbMale">Male</string>
+    <string name="lbl_rdbFemale">Female</string>
+
+    <string name="lbl_hobby">Hobbies</string>
+    <string name="lbl_hobby_reading">Reading</string>
+    <string name="lbl_hobby_coding">Coding</string>
+    <string name="lbl_hobby_travelling">Travelling</string>
+    <string name="lbl_hobby_swimming">Swimming</string>
+    <string name="lbl_hobby_blogging">Blogging</string>
+
+    <string name="lbl_create_account">CREATE ACCOUNT</string>
+    <string name="lbl_logout">Logout</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="add_note">Add Note</string>
+    <string name="welcome">Welcome</string>
+    <string name="todo">TODO</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+</resources>

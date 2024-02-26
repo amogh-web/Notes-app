@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Third_def" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="android:windowBackground">@color/white</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/white</item>
+
+        <item name="android:windowLightNavigationBar" tools:ignore="NewApi">true</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+
+    <style name="Theme.Third_def" parent="Base.Theme.Third_def" />
+
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen" tools:ignore="ResourceCycle">
+<!--        <item name="windowSplashScreenBackground" tools:targetApi="s">@color/white</item>-->
+        <item name="windowSplashScreenAnimatedIcon" tools:targetApi="s">@drawable/notes_logo
+        </item>
+        <item name="windowSplashScreenAnimationDuration">500</item>
+        <item name="android:gravity">center</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.Third_def
+        </item>
+    </style>
+    <style name="DefaultButton">
+        <item name="cornerRadius">5dp</item>
+    </style>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#1B1B1B</color>
+    <color name="card_background">#616161</color>
+    <color name="green">#00C347</color>
+    <color name="red">#FF6464</color>
+    <color name="ripple_green">#71FFA5</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="Login_click">Login</string>
+    <string name="add">Add</string>
+    <string name="add_note">Add Note</string>
+    <string name="app_name">Third_def</string>
+    <string name="backButton">BackButton</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="hint_EnterName">Enter Name</string>
+    <string name="hint_back_to_login">Back to login</string>
+    <string name="hint_confirm_password">Enter Confirm Password</string>
+    <string name="hint_email">Enter Email</string>
+    <string name="hint_password">Enter Password</string>
+    <string name="lbl_create_account">CREATE ACCOUNT</string>
+    <string name="lbl_create_an_account">Create an account !</string>
+    <string name="lbl_gender">Gender</string>
+    <string name="lbl_hobby">Hobbies</string>
+    <string name="lbl_hobby_blogging">Blogging</string>
+    <string name="lbl_hobby_coding">Coding</string>
+    <string name="lbl_hobby_reading">Reading</string>
+    <string name="lbl_hobby_swimming">Swimming</string>
+    <string name="lbl_hobby_travelling">Travelling</string>
+    <string name="lbl_logout">Logout</string>
+    <string name="lbl_rdbFemale">Female</string>
+    <string name="lbl_rdbMale">Male</string>
+    <string name="lbl_register">Register</string>
+    <string name="login">Login</string>
+    <string name="notes">Notes</string>
+    <string name="todo">TODO</string>
+    <string name="update">Update</string>
+    <string name="welcome">Welcome</string>
+    <style name="Base.Theme.Third_def" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+        <item name="colorPrimary">@color/green</item>
+        <item name="android:windowBackground">@color/white</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/white</item>
+
+        <item name="android:windowLightNavigationBar" ns1:ignore="NewApi">true</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+    <style name="DefaultButton">
+        <item name="cornerRadius">5dp</item>
+    </style>
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen" ns1:ignore="ResourceCycle">
+
+        <item name="windowSplashScreenAnimatedIcon" ns1:targetApi="s">@drawable/notes_logo
+        </item>
+        <item name="windowSplashScreenAnimationDuration">500</item>
+        <item name="android:gravity">center</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.Third_def
+        </item>
+    </style>
+    <style name="Theme.Third_def" parent="Base.Theme.Third_def"/>
+</resources>
